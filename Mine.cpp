@@ -9,10 +9,10 @@ void Mine::field() {
 	for (int i = 0; i < MAX; i++) {
 		for (int j = 0; j < MAX; j++) {
 			if (prev_row == i && prev_col == j) {
-				cout << "¡Ù";
+				cout << "Â¡Ã™";
 			}
 			else {
-				cout << "¡à";
+				cout << "Â¡Ã ";
 			}
 		}
 		cout << endl;
@@ -27,7 +27,7 @@ void Mine::move() {
 	while (true) {
 		system("cls");
 		field();
-		cout << "¿òÁ÷ÀÌ°í ½ÍÀº ÁÂÇ¥(x, y)" << endl;
+		cout << "ì›€ì§ì´ê³  ì‹¶ì€ ì¢Œí‘œ (x, y)" << endl;
 		int x, y;
 		cin >> x >> y;
 		if (x >= 0 && x < MAX && y >= 0 && y < MAX) {
