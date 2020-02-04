@@ -9,10 +9,10 @@ void Mine::field() {
 	for (int i = 0; i < MAX; i++) {
 		for (int j = 0; j < MAX; j++) {
 			if (prev_row == i && prev_col == j) {
-				cout << "¡Ù";
+				cout << "☆";
 			}
 			else {
-				cout << "¡à";
+				cout << "□";
 			}
 		}
 		cout << endl;
